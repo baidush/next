@@ -1,6 +1,6 @@
 // src/components/UserComponent.tsx
 import React, { useEffect } from 'react';
-import { useAppDispatch, useAppSelector } from '../app/hooks';  // Importing custom hooks
+import { useAppDispatch, useAppSelector } from '../features/hooks';  // Importing custom hooks
 import { fetchUsers } from '../features/userSlice';
 
 const UserComponent: React.FC = () => {
